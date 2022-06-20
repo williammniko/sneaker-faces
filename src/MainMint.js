@@ -67,7 +67,7 @@ const MainMint =({accounts, setAccounts }) => {
         
             <div><h><b>10 NFTs Per Wallet</b></h></div>
             <div><h><b>Price = 0.005 ETH</b></h></div>
-            <div><h><b>Gas Well Optimized</b></h></div>
+            <div><h><b>Gas Well Optimized.</b></h></div>
             
             
             {isConnected ? (
