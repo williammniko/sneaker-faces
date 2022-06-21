@@ -21,7 +21,7 @@ const MainMint =({accounts, setAccounts }) => {
            );
            try{
                const response = await contract.mint(BigNumber.from(mintAmount), { 
-               value: ethers.utils.parseEther((0.005 * mintAmount).toString()),
+               value: ethers.utils.parseEther((0.0001 * mintAmount).toString()),
            });
                console.log('response: ', response);
            }     catch (err) {
@@ -66,7 +66,7 @@ const MainMint =({accounts, setAccounts }) => {
             <h><b>MaxSupply is 5000</b></h>
         
             <div><h><b>10 NFTs Per Wallet</b></h></div>
-            <div><h><b>Price = 0.005 ETH</b></h></div>
+            <div><h><b>FREE MINT</b></h></div>
             <div><h><b>Gas Well Optimized.</b></h></div>
             
             
